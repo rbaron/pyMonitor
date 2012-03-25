@@ -8,7 +8,7 @@ Periodically checks if a webserver is ON. It uses GTK widgets to display the sta
 Usage
 -----
 
-Just run pyMonitor.py and keep your eye on your widget bar. I added the ./pyMonitor.py to my xinitrc, but everytime I had to restart X for some reason, another pyMonitor would run in addition to the first. Using start.sh checks if there's already a pyMonitor running. Make sure you set your full path to the pyMonitor.py file inside start.sh.
+Edit config.json with the address of the pages you want to watch. Run pyMonitor.py and keep your eye on your widget bar. I added the ./pyMonitor.py to my xinitrc, but everytime I had to restart X for some reason, another pyMonitor would run in addition to the first. Using start.sh checks if there's already a pyMonitor running. Make sure you set your full path to the pyMonitor.py file inside start.sh.
 
 > $ ./start.sh 
 
