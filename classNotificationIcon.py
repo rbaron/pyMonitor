@@ -22,10 +22,10 @@ class NotificationIcon(gtk.StatusIcon):
 	        menu.popup(None, None, gtk.status_icon_position_menu, button, time, self)
 
 	def changeIconToGood(self):
-		self.set_from_file(BASE_PATH+"good.png")
+		self.set_from_file(BASE_PATH+"icons/good.png")
 
 	def changeIconToBad(self):
-		self.set_from_file(BASE_PATH+"bad.png")
+		self.set_from_file(BASE_PATH+"icons/bad.png")
 	
 	def changeIconToBusy(self):
-		self.set_from_file(BASE_PATH+"busy.png")
+		self.set_from_file(BASE_PATH+"icons/busy.png")

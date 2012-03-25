@@ -3,6 +3,8 @@ pyMonitor
 
 Periodically checks if a webserver is ON. It uses GTK widgets to display the status of each webpage on config.json.
 
+![example](http://s16.postimage.org/pmqkley5x/py_Monitor.png)
+
 Usage
 -----
 
