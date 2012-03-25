@@ -1,0 +1,17 @@
+{
+	"sites":
+	[
+		{
+			"name": "google",
+			"address": "http://www.google.com/"
+		},
+		{
+			"name": "twitter",
+			"address": "http://www.twitter.com/"
+		},
+		{
+			"name": "github",
+			"address": "http://www.github.com/"
+		}
+	]
+}	
