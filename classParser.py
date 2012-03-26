@@ -1,4 +1,5 @@
 import urllib2
+from urllib2 import HTTPError, URLError
 import json
 
 #Turn to True to output some stuff!
